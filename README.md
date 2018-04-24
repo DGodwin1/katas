@@ -1,2 +1,2 @@
 # katas
-Spare time shenanigans on code wars
+Spare time shenanigans on Codewars
