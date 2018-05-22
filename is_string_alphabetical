@@ -1,1 +1,5 @@
-
+# https://www.codewars.com/kata/alphabetically-ordered
+def is_string_alphabetical(string_to_check):
+    if list(string_to_check) == (sorted(string_to_check)):
+        return("Yep")
+    return("Nope")
