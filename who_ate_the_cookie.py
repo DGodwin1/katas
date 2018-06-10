@@ -1,14 +1,13 @@
 #https://www.codewars.com/kata/who-ate-the-cookie
 def cookie(a):
-    if isinstance(a, str):
-        return(the_actual_message("Zack"))
+    if type(a) == str:
+        return(the_actual_message("Zach"))
 
-    elif isinstance(a, int) or isinstance(a, float):
+    elif type(a) == int or type(a) == float:
         return(the_actual_message("Monica"))
 
     else:
         return(the_actual_message("the dog"))
-
 
 def the_actual_message(name_of_person):
     return("Who ate the last cookie? It was {}!").format(name_of_person)
